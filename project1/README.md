@@ -1,7 +1,7 @@
 # Individual Project 1
 # Estimating Online Site (Github) Statistics
 #### Due Date
-* Tuesday Feb 14, 2023 (23:59)
+* Tuesday Feb 13, 2024 (23:59)
 
 #### Total Points
 * 100 (One Hundred)
