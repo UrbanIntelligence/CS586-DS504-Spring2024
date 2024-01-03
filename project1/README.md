@@ -64,7 +64,7 @@ response = requests.get('https://api.github.com/users?since='+str(id_),headers=h
 data = response.json()
 
 # collect data by search API
-response = requests.get('https://api.github.com/search/users?q=created:<2020-01-14&created:>2020-01-13',headers=headers)
+response = requests.get('https://api.github.com/search/users?q=created:<2023-12-27&created:>2023-12-25&sort=joined&order=desc',headers=headers)
 data = response.json()
 json_formatted_str = json.dumps(data, indent=2)
 print(json_formatted_str)
