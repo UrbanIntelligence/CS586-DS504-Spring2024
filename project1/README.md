@@ -45,6 +45,9 @@ In this project, you will use Github APIs to download data and analyze the colle
 
 
 For API requests using Basic Authentication or OAuth, you can make up to 5000 requests per hour. You can create your personal access tokens under Settings ->Developer settings -> [Personal access tokens](https://github.com/settings/tokens). See this link [Managing your personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) for more details.
+
+For this project, you can generate a new token (classic), and select **user** as the scope. Remember to copy the generated token and paste it in your code.
+
 <p align="center">
 <img src="token_updated.png">
 </p>
