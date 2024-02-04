@@ -8,7 +8,7 @@
 * 100 (One Hundred)
 
 ## Goal
-In this project, you will be asked to finish a sequence classification task using deep learning. A trajectory data set with five taxi drivers' daily driving trajectories in 6 months will be provided. The challenge is to predict the driver based on 100-step steps (sub-trajectory) extracted from each driver's daily trajectory. For testing, similar segments will be created from five days of data not included in the training set. This approach ensures consistency in data preparation across training and testing phases, allowing the model to accurately attribute each trajectory segment to the correct driver. 
+In this project, you will be asked to finish a sequence classification task using deep learning. A trajectory data set with five taxi drivers' daily driving trajectories in 6 months will be provided. The primary objective is to predict which driver each 100-step sub-trajectory, extracted from the daily trajectories, belongs to. To evaluate your model, it will be tested on a separate set of data for five additional days, using the same preprocessing steps to ensure consistent data handling. This approach ensures consistency in data preparation across training and testing phases, allowing the model to accurately attribute each sub-trajectory to the correct driver. 
 
 ## Guidelines
 * Implement required functions in model.py, train.py, and test.py.
