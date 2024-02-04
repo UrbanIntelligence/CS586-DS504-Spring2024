@@ -8,7 +8,19 @@
 * 100 (One Hundred)
 
 ## Goal
-In this project, you will be asked to finish a sequence classification task using deep learning. A trajectory data set with five taxi drivers' daily driving trajectories in 6 months will be provided, and the task is to build a model to predict which driver a trajectory belongs to. Trajectory to be classified include all GPS records of a driver in one day. During the test, we will use data collected from 5 drivers in 5 days, i.e. there will be 25 records. You can do anything to preprocess the data before feeding the data to the neural network, such as extracting features, getting sub-trajectory based on the status, and so on. This project should be completed in Python 3. Pytorch is highly recommended, but you can make your decision to use other tools like MxNet.
+In this project, you will be asked to finish a sequence classification task using deep learning. A trajectory data set with five taxi drivers' daily driving trajectories in 6 months will be provided. The challenge is to predict the driver based on 100-step steps (sub-trajectory) extracted from each driver's daily trajectory. For testing, similar segments will be created from five days of data not included in the training set. This approach ensures consistency in data preparation across training and testing phases, allowing the model to accurately attribute each trajectory segment to the correct driver. 
+
+## Guidelines
+* Implement required functions in model.py, train.py, and test.py.
+* The file extract_feature.py provides a way to preprocess the data before feeding the data to the neural network, you can customize it to get more features but maintain 100 steps as standard for fair comparison.
+* This project should be completed in Python 3. Pytorch is highly recommended, but you can decide to use other tools like MxNet.
+
+## How to run :
+training model:
+* `$ python main.py train`
+
+testing model:
+* `$ python main.py test`
 
 ## Current Leaderboard
 | rank | Name | Accuracy |
@@ -23,30 +35,30 @@ In this project, you will be asked to finish a sequence classification task usin
     * proposal
     * methodology
     * empirical results and evaluation
-    * conslusion
+    * conclusion
     
 * Python Code (50%)
     * Code is required to avoid plagiarism.
-    * The submission should contain a python file named "evaluation.py" to help evaluate your model. 
-    * The evluation.py should follow the format in the Submission Guideline section. 
+    * Implement functions in model.py, train.py, and test.py.
+    * The submission should contain folder including “extract_feature.py, model.py, train.py, test.py, main.py" to help evaluate your model and your latest trained model. 
     * Evaluation criteria.
       | Percentage | Accuracy |
       |---|---|
-      | 100 | 0.6 |
-      | 90 | 0.55 |
-      | 80 | 0.5 |
-      | 70 | 0.45|
-      | 60 | 0.4 |
+      | 100 | 0.8 |
+      | 90 | 0.75 |
+      | 80 | 0.70 |
+      | 70 | 0.65|
+      | 60 | 0.60 |
 * Grading:
   * Total (100):
     * Code (50) + Report (50)
 
   * Code (50):
-    * accuracy >= 0.60: 50
-    * accuracy >= 0.55: 45
-    * accuracy >= 0.50: 40
-    * accuracy >= 0.45: 35
-    * accuracy >= 0.40: 30
+    * accuracy >= 0.80: 50
+    * accuracy >= 0.75: 45
+    * accuracy >= 0.70: 40
+    * accuracy >= 0.65: 35
+    * accuracy >= 0.60: 30
 
   * Report (50):
     1. Introduction & Proposal (5)
@@ -78,50 +90,22 @@ In this project, you will be asked to finish a sequence classification task usin
 |0    |114.12072    |22.543716    |2016-07-02 0:09:01    |0|
 
 
-Above is an example of what the data look like. In the data/ folder, each .csv file is trajectories for 5 drivers in the same day. Data can be found at [Google Drive](https://drive.google.com/open?id=1xfyxupoE1C5z7w1Bn5oPRcLgtfon6xeT)
+Above is an example of what the data looks like. In the data/ folder, each .csv file is trajectories for 5 drivers on the same day. Data can be found at [Google Drive](https://drive.google.com/open?id=1xfyxupoE1C5z7w1Bn5oPRcLgtfon6xeT)
 #### Feature Description 
-* **Plate**: Plate means the taxi's plate. In this project, we change them to 0~5 to keep anonymity. Same plate means same driver, so this is the target label for the classification. 
+* **Plate**: Plate means the taxi's plate. In this project, we change them to 0~5 to keep anonymity. The same plate means the same driver, so this is the target label for the classification. 
 * **Longitude**: The longitude of the taxi.
 * **Latitude**: The latitude of the taxi.
 * **Time**: Timestamp of the record.
-* **Status**: 1 means taxi is occupied and 0 means a vacant taxi.
+* **Status**: 1 means the taxi is occupied and 0 means a vacant taxi.
 
 #### Problem Definition
-Given a full-day trajectory of a taxi, you need to predict which taxi driver it belongs to. 
+Given a full-day trajectory of a taxi, you need to extract the sub-trajectories of each 100 steps and predict which taxi driver it belongs to. 
 
 #### Evaluation 
 Five days of trajectories will be used to evaluate your submission. And test trajectories are not in the data/ folder. 
 
 #### Submission Guideline
-To help better and fast evaluate your model, please submit a separate python file named "evaluation.py". This file should contain two functions.
-* **Data Processing**
-  ```python
-  def processs_data(traj):
-    """
-    Input:
-        Traj: a list of list, contains one trajectory for one driver 
-        example:[[114.10437, 22.573433, '2016-07-02 00:08:45', 1],
-           [114.179665, 22.558701, '2016-07-02 00:08:52', 1]]
-    Output:
-        Data: any format that can be consumed by your model.
-    
-    """
-    return data
-  ```
-* **Model Prediction**
-    ```python
-    def run(data,model):
-        """
-        
-        Input:
-            Data: the output of process_data function.
-            Model: your model.
-        Output:
-            prediction: the predicted label(plate) of the data, an int value.
-        
-        """
-        return prediction
-  ```
+To help better and faster evaluate your model, please submit a folder including “extract_feature.py, model.py, train.py, test.py, main.py" and your latest trained model.
 
 ## Some Tips
 Setup information could also be found in the [slides](https://docs.google.com/presentation/d/148pBkhw4HqGjkQGkOdsXjJw_B3rzVgi6Brq6fc7r8mE/edit?usp=sharing)
