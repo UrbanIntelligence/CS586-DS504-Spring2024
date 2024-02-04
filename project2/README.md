@@ -104,9 +104,6 @@ Given a full-day trajectory of a taxi, you need to extract the sub-trajectories 
 #### Evaluation 
 Five days of trajectories will be used to evaluate your submission. And test trajectories are not in the data/ folder. 
 
-#### Submission Guideline
-To help better and faster evaluate your model, please submit a folder including “extract_feature.py, model.py, train.py, test.py, main.py" and your latest trained model.
-
 ## Some Tips
 Setup information could also be found in the [slides](https://docs.google.com/presentation/d/148pBkhw4HqGjkQGkOdsXjJw_B3rzVgi6Brq6fc7r8mE/edit?usp=sharing)
 * Anaconda and virtual environment set tup
