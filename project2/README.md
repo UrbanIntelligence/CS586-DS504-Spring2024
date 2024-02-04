@@ -102,7 +102,7 @@ Above is an example of what the data looks like. In the data/ folder, each .csv 
 Given a full-day trajectory of a taxi, you need to extract the sub-trajectories of each 100 steps and predict which taxi driver it belongs to. 
 
 #### Evaluation 
-Five days of trajectories will be used to evaluate your submission. And test trajectories are not in the data/ folder. 
+100 staps long sub-trajectories of five days of whole-day trajectories will be used to evaluate your submission. And test trajectories are not in the data/ folder. 
 
 ## Some Tips
 Setup information could also be found in the [slides](https://docs.google.com/presentation/d/148pBkhw4HqGjkQGkOdsXjJw_B3rzVgi6Brq6fc7r8mE/edit?usp=sharing)
