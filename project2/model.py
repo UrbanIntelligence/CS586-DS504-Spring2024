@@ -4,7 +4,11 @@ import torch.nn as nn
 
 class TaxiDriverClassifier(nn.Module):
     """
-    Neural network model for classifying taxi drivers.
+    Input:
+        Data: the output of process_data function.
+        Model: your model.
+    Output:
+        prediction: the predicted label(plate) of the data, an int value.
     """
     def __init__(self, input_dim, output_dim):
         super(TaxiDriverClassifier, self).__init__()
