@@ -40,7 +40,7 @@ testing model:
 * Python Code (50%)
     * Code is required to avoid plagiarism.
     * Implement functions in model.py, train.py, and test.py.
-    * The submission should contain folder including “extract_feature.py, model.py, train.py, test.py, main.py" to help evaluate your model and your latest trained model. 
+    * The submission should contain a folder including “extract_feature.py, model.py, train.py, test.py, main.py" and your latest trained model. 
     * Evaluation criteria.
       | Percentage | Accuracy |
       |---|---|
