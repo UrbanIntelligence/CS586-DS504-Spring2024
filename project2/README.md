@@ -44,21 +44,21 @@ testing model:
     * Evaluation criteria.
       | Percentage | Accuracy |
       |---|---|
-      | 100 | 0.8 |
-      | 90 | 0.75 |
-      | 80 | 0.70 |
-      | 70 | 0.65|
-      | 60 | 0.60 |
+      | 100 | 0.65 |
+      | 90 | 0.60 |
+      | 80 | 0.55 |
+      | 70 | 0.50|
+      | 60 | 0.45 |
 * Grading:
   * Total (100):
     * Code (50) + Report (50)
 
   * Code (50):
-    * accuracy >= 0.80: 50
-    * accuracy >= 0.75: 45
-    * accuracy >= 0.70: 40
-    * accuracy >= 0.65: 35
-    * accuracy >= 0.60: 30
+    * accuracy >= 0.65: 50
+    * accuracy >= 0.60: 45
+    * accuracy >= 0.55: 40
+    * accuracy >= 0.50: 35
+    * accuracy >= 0.45: 30
 
   * Report (50):
     1. Introduction & Proposal (5)
