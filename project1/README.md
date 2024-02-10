@@ -30,10 +30,14 @@ In this project, you will use Github APIs to download data and analyze the colle
      	a. Sampling/estimation method (10) 
 	b. Proof of unbiasedness(5) 
  	c. Correctness of proof (5)
-     3. Evaluation & Results (30):
+     4. Evaluation & Results (30):
      	a. Results from a validation set (15)
 	b. Results from the entire id space (15)
-     4. Conclusion (10)
+     5. Conclusion (10)
+
+<p align="center">
+<img src="Proj-1-Figure.png">
+</p>
 
 ## Project Guidelines
 
