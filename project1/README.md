@@ -36,7 +36,7 @@ In this project, you will use Github APIs to download data and analyze the colle
      5. Conclusion (10)
 
 <p align="center">
-<img src="Proj-1-Figure.png">
+<img src="Proj-1-Figure.png", width="250" height="350">
 </p>
 
 ## Project Guidelines
