@@ -28,10 +28,10 @@ In this project, you will use Github APIs to download data and analyze the colle
      1. Introduction & Proposal (10)
      2. Methodology (20):
      	a. Sampling/estimation method (10) 
-	b. Proof of unbiasedness(5) 
- 	c. Correctness of proof (5)
+	b. Proof of unbiasedness(5): The unbiasedness can be "proven" by the evaluation results, with figure similar to the one below (where the figure below was from the YouTube counting paper from lecture 2, Big data acquisition and measurement). The figure has x-axis as different sampling budgets, and y-axis as the estimated total counts of active users in different runs. If you figure shows that there are half chances to over- vs under-estimate the total count, i.e., half chance to be above vs below the estimation average, it is a proof of unbiasedness. 
+ 	c. Correctness of proof (5): This correctness can be "proven" too by the figure above, if the figure shows that the averge estimates stay rounghly the same over different sampling budgets (values on the x-axis).  
      4. Evaluation & Results (30):
-     	a. Results from a validation set (15)
+     	a. Results from a validation set (15): Valudation set is a set of active users you collected exhaustively in a manageable github ID range. For example, you can choose a small ID range to be 1 to 10,000, and exhaustively collect all active user IDs in it. Then within this validation set, you have the "ground truth" total number of active users. You can apply your sampling and estimation approach to this validation set, and see how acurate your estimater is comparing to the ground-truth.
 	b. Results from the entire id space (15)
      5. Conclusion (10)
 
