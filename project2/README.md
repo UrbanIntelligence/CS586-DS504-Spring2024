@@ -10,7 +10,7 @@
 ## Goal
 In this project, you will be asked to finish a sequence classification task using deep learning. A trajectory data set with five taxi drivers' daily driving trajectories in 6 months will be provided. The primary objective is to predict which driver each 100-step sub-trajectory, extracted from the daily trajectories, belongs to. To evaluate your model, it will be tested on a separate set of data for five additional days, using the same preprocessing steps to ensure consistent data handling. This approach ensures consistency in data preparation across training and testing phases, allowing the model to accurately attribute each sub-trajectory to the correct driver. 
 
-<img src="https://github.com/yanhuata/DS504CS586-S20/blob/master/project2/pic/classification.png" width="80%">
+<img src="[https://github.com/yanhuata/DS504CS586-S20/blob/master/project2/pic/classification.png](https://github.com/UrbanIntelligence/CS586-DS504-Spring2024/blob/master/project2/pic/classification.png)" width="80%">
 
 ## Guidelines
 * Implement required functions in model.py, train.py, and test.py.
