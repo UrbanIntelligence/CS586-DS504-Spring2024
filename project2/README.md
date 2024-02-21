@@ -115,7 +115,7 @@ Your model will be evaluated using 100-step sub-trajectories extracted from five
    * [Google Cloud](https://cloud.google.com/free)
    * [Google CoLab](https://colab.research.google.com/)
 * Anaconda and virtual environment set tup
-   * [Download and install anaconda](https://www.anaconda.com/distribution/)
+   * [Download and install anaconda](https://www.anaconda.com/download)
    * [Create a virtual environment with commands](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands)
 * Deep learning package
    * [Pytorch](https://pytorch.org/tutorials/)
