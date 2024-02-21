@@ -107,19 +107,18 @@ Given a full-day trajectory of a taxi, you need to extract the sub-trajectories 
 Your model will be evaluated using 100-step sub-trajectories extracted from five days of comprehensive daily trajectories. These test trajectories are not included in the data/ folder provided for training. This ensures a fair assessment of your model's ability to generalize to unseen data.
 
 ## Some Tips
-Setup information could also be found in the [slides](https://docs.google.com/presentation/d/148pBkhw4HqGjkQGkOdsXjJw_B3rzVgi6Brq6fc7r8mE/edit?usp=sharing)
+
+* From project 2, you will need some GPU resources to train deep learning models. There are three resources below you can use:
+* Open source GPU
+   * [WPI Turing](https://arc.wpi.edu/cluster-documentation/build/html/index.html)
+   * now you all have access to WPI Turing GPU cluster with your WPI accounts.
+   * [Google Cloud](https://cloud.google.com/free)
+   * [Google CoLab](https://colab.research.google.com/)
 * Anaconda and virtual environment set tup
    * [Download and install anaconda](https://www.anaconda.com/distribution/)
    * [Create a virtual environment with commands](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands)
 * Deep learning package
    * [Pytorch](https://pytorch.org/tutorials/)
-   * [MxNet](https://mxnet.apache.org/)
-* Open source GPU
-   * [Turing](https://arc.wpi.edu/cluster-documentation/build/html/index.html)
-   * [Using GPU on Google Cloud](https://github.com/yanhuata/DS504CS586-S20/blob/master/project2/keras_tutorial.ipynb)
-   * [Cuda set up for Linux](https://docs.google.com/document/d/1rioVwqvZCbn58a_5wqs5aT3YbRsiPXs9KmIuYhmM1gY/edit?usp=sharing)
-   * [Google colab](https://colab.research.google.com/notebooks/gpu.ipynb)
-   * [Kaggle](https://www.kaggle.com/dansbecker/running-kaggle-kernels-with-a-gpu)
 * **Keywords**. 
    * If you are wondering where to start, you can try to search "sequence classification", "sequence to sequence" or "sequence embedding" in Google or Github, this might provide you some insights.
    
