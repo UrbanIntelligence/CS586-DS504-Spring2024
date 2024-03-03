@@ -99,8 +99,8 @@ Please use the following code to save the model and weights of your generator.
 
 ```python
 # save model with Pytorch
-torch.save(netG.state_dict(), 'PATH_TO_SAVED_GENERATOR')
-torch.save(netD.state_dict(), 'PATH_TO_SAVED_DISCRIMINATOR')
+torch.save(netG., './generator.pt')
+torch.save(netG.state_dict(), './generator_weights.pt')
 ```
 
 #### Plotting
