@@ -205,6 +205,6 @@ Generate images from other data sources.
    #SBATCH --mem 12G
    #SBATCH --job-name="p3"
    
-   python torch_test.py
+   python evaluation.py
    ```
 
