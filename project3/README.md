@@ -160,7 +160,7 @@ To achieve full marks for the coding portion of your assignment, it's crucial th
 
 ###### Evaluation Process:
 
-We will use an evaluation.py script to assess the functionality of your code. This script, designed to test your code's image generation capabilities, will be run using a sample dataset. For your convenience and to aid in your preparation, a sample of the evaluation.py script is made available.
+We will use an evaluation.py script to assess the functionality of your code. This script, designed to test your code's image generation capabilities, will be run using a sample dataset. A sample of the evaluation.py script is made available.
 
 ###### Flexibility with the Sample Code:
 
