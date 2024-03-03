@@ -135,12 +135,12 @@ plt.show()
 Please compress all the below files into a zipped file and submit the zip file (firstName_lastName_GAN.zip) to Canvas. 
 
 #### PDF Report
-* Set of Experiments Performed: Include a section describing the set of experiments that you performed, what structures you experimented with (i.e., number of layers, number of neurons in each layer), what hyperparameters you varied (e.g., number of epochs of training, batch size and any other parameter values, weight initialization schema, activation function), what kind of loss function you used and what kind of optimizer you used. 
-* Special skills: Include the skills which can improve the generation quality. Here are some [tips](https://github.com/soumith/ganhacks) may help.   
-* Visualization: Include 25 (5\*5) final generated images which formatted as the example in Goal and a loss plot of the generator and discriminator during your training. For generated images, you need to generated at least one image for each digit. 
+* Set of Experiments Performed: Include a section describing the set of experiments that you performed, what structures you experimented with (i.e., number of layers, number of neurons in each layer), what hyperparameters you varied (e.g., number of epochs of training, batch size, and any other parameter values, weight initialization schema, activation function), what kind of loss function you used and what kind of optimizer you used. 
+* Special skills: Include the skills that can improve the generation quality. Here are some [tips](https://github.com/soumith/ganhacks) that may help.   
+* Visualization: Include 25 (5\*5) final generated images which are formatted as the example in Goal and a loss plot of the generator and discriminator during your training. For generated images, you need to generate at least one image for each digit. 
 
 #### Python code
-* Include model creation, model training, plotting code.
+* Include model creation, model training, and plotting code.
 
 #### Generator Model
 * Turn in your best generator saved as “generator.pt” and the weights of your generator saved as “generator_weights.pt”.
@@ -156,19 +156,19 @@ Please compress all the below files into a zipped file and submit the zip file (
 
 #### Code (20%) 
 
-You can get full credits if the scripts can run successfully (i.e., TA will test your code with a small data set to see if images can be generated), otherwise you may loss some points based on your error. Similar to project 2, you should submit a evaluation.py file.
+You can get full credits if the scripts can run successfully (i.e., TA will test your code with a small data set to see if images can be generated), otherwise, you may lose some points based on your error. 
 
 #### Model (10%)
 
-You can get full credits if all the generated images can be recognized, otherwise you may loss some points. Also, the code you submitted should be able to generate all 10 different digits.
+You can get full credits if all the generated images can be recognized, otherwise, you may lose some points. Also, the code you submitted should be able to generate all 10 different digits.
 
 ## Bonus (10 points)
 
-Generate images from other data source.
+Generate images from other data sources.
 
 * Data set
 
-  Here are some images you may interest. Note other data sets are also allowed.
+  Here are some images you may be interested in. Note other data sets are also allowed.
   
   [Face](https://drive.google.com/drive/folders/0B7EVK8r0v71pTUZsaXdaSnZBZzg)
   
@@ -178,7 +178,7 @@ Generate images from other data source.
   
 * Package
 
-  You are allowed to use any deep learning package, such as Pytorch, etc.
+  You can use any deep learning package, such as Pytorch, etc.
   
 * Deliverable
 
@@ -186,15 +186,15 @@ Generate images from other data source.
   
   * Model
   
-  * README file (How to  compile and load the model to generate images)
+  * README file (How to compile and load the model to generate images)
   
   * 25 generated images
 
-## Tips of Using GPU on Turing Server
+## Tips for Using GPU on Turing Server
 
 * Follow Turing_Setup_Instruction.pdf
 * Submit job on Turing server
-   ```shell
+   ``` shell
    #!/bin/bash
    #SBATCH -A ds504
    #SBATCH -p academic
