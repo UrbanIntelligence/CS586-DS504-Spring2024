@@ -18,7 +18,7 @@ In this assignment you will be asked to implement a Generative Adversarial Netwo
 
 #### Data set
 
-MNIST is a dataset composed of handwrite numbers and their labels. Each MNIST image is a 28\*28 grey-scale image, which is labeled with an integer value from 0 and 9, corresponding to the actual value in the image. MNIST is provided in Pytorch as 28\*28 matrices containing numbers ranging from 0 to 255. There are 60000 images and labels in the training data set and 10000 images and labels in the test data set. Since this project is an unsupervised learning project, you can only use the 60000 images for your training. 
+MNIST is a dataset composed of handwritten numbers and their labels. Each MNIST image is a 28\*28 grey-scale image, which is labeled with an integer value between 0 and 9, corresponding to the actual value in the image. MNIST is provided in Pytorch as 28\*28 matrices containing numbers ranging from 0 to 255. There are 60000 images and labels in the training data set and 10000 images and labels in the test data set. Since this project is an unsupervised learning project, you can only use the 60000 images for your training. 
 
 #### Installing Software and Dependencies 
 
@@ -28,7 +28,7 @@ MNIST is a dataset composed of handwrite numbers and their labels. Each MNIST im
 
 #### Building and Compiling Generator and Discriminator
 
-In Pytorch, you can try different layers, such as “Conv2D”, different activation functions, such as “tanh”, “leakyRelu”. You can apply different optimizers, such as stochastic gradient descent or Adam, and different loss functions. The following is the sample code of how to build the model.
+In Pytorch, you can try different layers, such as “Conv2D”, and different activation functions, such as “tanh”, and “leakyRelu”. You can apply different optimizers, such as stochastic gradient descent or Adam, and different loss functions. The following is the sample code of how to build the model.
 
 
 ```python
@@ -156,7 +156,22 @@ Please compress all the below files into a zipped file and submit the zip file (
 
 #### Code (20%) 
 
-You can get full credits if the scripts can run successfully (i.e., TA will test your code with a small data set to see if images can be generated), otherwise, you may lose some points based on your error. 
+To achieve full marks for the coding portion of your assignment, it's crucial that your submitted scripts are operational. This entails that upon testing with a small dataset, your code must execute flawlessly, demonstrating its ability to generate images as intended.
+
+## Evaluation Process:
+
+We will use an evaluation.py script to assess the functionality of your code. This script, designed to test your code's image generation capabilities, will be run using a sample dataset. For your convenience and to aid in your preparation, a sample of the evaluation.py script is made available.
+
+## Flexibility with the Sample Code:
+
+While the provided sample of evaluation.py serves as a guideline for how your code will be evaluated, you are encouraged to modify this script as necessary to suit your code's requirements. The ability to adapt and optimize the evaluation script demonstrates a deeper understanding of the code's functionality and is viewed positively.
+
+## Criteria for Full Credits:
+
+Functionality: Your submission must run without errors and generate images correctly when tested with the evaluation script, whether it's the original or a modified version of evaluation.py. Otherwise, you may lose some points based on your error. These are recommendations for a Successful Submission:
+
+* Code Clarity: Ensure your code is well-commented and organized, making it easy for others to understand and evaluate.
+* Include Dependencies: Verify that all necessary files and dependencies are included in your submission to prevent runtime errors.
 
 #### Model (10%)
 
