@@ -164,7 +164,7 @@ We will use an evaluation.py script to assess the functionality of your code. Th
 
 ###### Flexibility with the Sample Code:
 
-While the provided sample of evaluation.py serves as a guideline for how your code will be evaluated, you are encouraged to modify this script as necessary to suit your code's requirements. The ability to adapt and optimize the evaluation script demonstrates a deeper understanding of the code's functionality and is viewed positively.
+While the provided sample of evaluation.py serves as a guideline for how your code will be evaluated, you are encouraged to modify this script as necessary to suit your code's requirements.
 
 ###### Criteria for Full Credits:
 
