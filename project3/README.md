@@ -158,15 +158,15 @@ Please compress all the below files into a zipped file and submit the zip file (
 
 To achieve full marks for the coding portion of your assignment, it's crucial that your submitted scripts are operational. This entails that upon testing with a small dataset, your code must execute flawlessly, demonstrating its ability to generate images as intended.
 
-## Evaluation Process:
+###### Evaluation Process:
 
 We will use an evaluation.py script to assess the functionality of your code. This script, designed to test your code's image generation capabilities, will be run using a sample dataset. For your convenience and to aid in your preparation, a sample of the evaluation.py script is made available.
 
-## Flexibility with the Sample Code:
+###### Flexibility with the Sample Code:
 
 While the provided sample of evaluation.py serves as a guideline for how your code will be evaluated, you are encouraged to modify this script as necessary to suit your code's requirements. The ability to adapt and optimize the evaluation script demonstrates a deeper understanding of the code's functionality and is viewed positively.
 
-## Criteria for Full Credits:
+###### Criteria for Full Credits:
 
 Functionality: Your submission must run without errors and generate images correctly when tested with the evaluation script, whether it's the original or a modified version of evaluation.py. Otherwise, you may lose some points based on your error. These are recommendations for a Successful Submission:
 
