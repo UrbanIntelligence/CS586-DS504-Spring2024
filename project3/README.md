@@ -170,7 +170,7 @@ While the provided sample of evaluation.py serves as a guideline for how your co
 
 Functionality: Your submission must run without errors and generate images correctly when tested with the evaluation script, whether it's the original or a modified version of evaluation.py. Otherwise, you may lose some points based on your error. These are recommendations for a Successful Submission:
 
-* Code Clarity: Ensure your code is well-commented and organized, making it easy for others to understand and evaluate.
+* Code Clarity: Ensure your code is well-commented and organized.
 * Include Dependencies: Verify that all necessary files and dependencies are included in your submission to prevent runtime errors.
 
 #### Model (10%)
