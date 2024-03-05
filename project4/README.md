@@ -9,7 +9,7 @@
 ## Goal
 In Project 2, you were given a bunch of drivers and their trajectories to build a model to classify which driver a given 100-step length sub-trajectory belongs to. In this project, we will give you a harder task. In Project 2, the training data contains 5 drivers and 6-month trajectories for each driver. In this task, however, the training data contain 400 drivers and only 5-day trajectories for each driver. You should use few-shot learning to build the classification model for this task. The model for each driver can be a binary classification, which takes two trajectories as input and predicts whether these two trajectories belong to the same driver. 
 
-<img src="https://github.com/UrbanIntelligence/CS586-DS504-Spring2024/blob/master/project4/pic/Project4.png" width="100%">
+<img src="https://github.com/UrbanIntelligence/CS586-DS504-Spring2024/blob/master/project4/pic/Project4_2.png" width="100%">
 
 ## How to run :
 extract features from the pickle file and generate the sub-trajectories of the 400 drivers:
