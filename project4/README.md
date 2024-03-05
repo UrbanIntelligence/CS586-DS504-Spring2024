@@ -13,7 +13,7 @@ In Project 2, you were given a bunch of drivers and their trajectories to build 
 extract features from the pickle file and generate the sub-trajectories of the 400 drivers:
 * `$ python extract_feature.py`
 
-Generate pairs of sub-trajectories where pairs originating from the same driver are labeled with a 1, and pairs from different drivers are labeled with a 0. Upon executing this script, the expected shape of the training dataset will be (number of trajectory pairs, 2, 100, feature size).
+generate pairs of sub-trajectories where pairs originating from the same driver are labeled with a 1 and pairs from different drivers are labeled with a 0. Upon executing this script, the expected shape of the training dataset will be (number of trajectory pairs, 2, 100, feature size).
 
 * `$ generate_paired_traj.py`
   
@@ -32,7 +32,7 @@ testing model:
 
 
 ## Evaluation
-To evaluate your submission, a separate test dataset will be held. For each driver, the test data will be another 100 different drivers, and we will use the same data preprocessing as you did for the training dataset. We will randomly generate `0,000 trajectory pairs and use them to evaluate your submitted model. 
+To evaluate your submission, a separate test dataset will be used. The test data will be another 100 different drivers, and we will use the same data preprocessing as you did for the training dataset. We will randomly generate 10,000 trajectory pairs and use them to evaluate your submitted model. This means the testing dataset's shape is (10000, 2, 100, feature_size).
 
 ## Deliverables & Grading
 
@@ -40,14 +40,14 @@ Please compress all the below files into a zipped file and submit the zip file (
 
 * PDF Report (50%) [template](https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx)
     * proposal
-    * methodology
+    * Methodology
     * empirical results and evaluation
-    * conslusion
+    * conclusion
     
 * Python Code (50%)
     * Code is required to avoid plagiarism.
-    * The submission should contain all the Python files including "extract_feature, generate_paired_traj.py, model.py, train.py, test.py, and main.py" to help evaluate your model. 
-
+    * The submission should contain all the Python files including "extract_feature.py, generate_paired_traj.py, model.py, train.py, test.py, and main.py" to help evaluate your model.
+    * Similar to Project2, you can revise "extract_feature.py" to get more features of the dataset or for the feature engineering. But for a fair comparison of the performance of the code, the input shape of the training dataset should be the same, which is (number of trajectory pairs, 2, 100, feature size).
     * Evaluation criteria.
       | Percentage | Accuracy |
       |---|---|
@@ -86,43 +86,31 @@ Please compress all the below files into a zipped file and submit the zip file (
 ## Project Guidelines
 
 #### Dataset Description
-The data is binary pickled file. The data is stored in a dictionary, in which the key is ID of a driver and value is list of his/her trajectories. For each trajectory, the basic element is similar to project 2. Each element in the trajectory is in the following format, [ plate, longitude, latitude, second_since_midnight, status, time ]. Data can be found at [Google Drive](https://drive.google.com/file/d/1aHGJx2KtzjCRlfPYefPaGPl3e5lyJTX-/view?usp=sharing). The training data contain **500** drivers and **5**-day trajectories for each driver.
+The data is stored in a dictionary, in which the key is the ID of a driver and the value is a list of his/her trajectories. For each trajectory, the basic element is similar to project 2. Each element in the trajectory is in the following format, [ plate, longitude, latitude, second_since_midnight, status, time ]. Data can be found at [Google Drive](https://drive.google.com/file/d/1aHGJx2KtzjCRlfPYefPaGPl3e5lyJTX-/view?usp=sharing). The training data contain **400** drivers and **5**-day trajectories for each driver.
 #### Feature Description 
-* **Plate**: Plate means the taxi's plate. In this project, we change them to 0~500 to keep anonymity. Same plate means same driver, so this is the target label for the classification. 
+* **Plate**: Plate means the taxi's plate. In this project, we change them to 0~500 to keep anonymity. The same plate means the same driver, so this is the target label for the classification. 
 * **Longitude**: The longitude of the taxi.
 * **Latitude**: The latitude of the taxi.
-* **Second_since_midnight**: How many seconds has past since midnight.
-* **Status**: 1 means taxi is occupied and 0 means a vacant taxi.
+* **Second_since_midnight**: Seconds have passed since midnight.
+* **Status**: 1 means the taxi is occupied and 0 means a vacant taxi.
 * **Time**: Timestamp of the record.
 
 #### Problem Definition
-Given two full-day trajectories,  you need to predict whether those two given trajectories belongs to the same driver. 
+Given two full-day trajectories,  you need to predict whether those two given trajectories belong to the same driver. 
 
 #### Evaluation 
-Two days of trajectories will be used to evaluate your submission. And test trajectories are not in the data/ folder. However, we have provided a validation dataset. The validate_set.pkl contains validation data and validate_label.pkl contains labels. You can construct your own validation set based on the trajectories and their corresponding labels. Same as usual, you can use pickle.load() function to load the dataset and evaluate your model. 
+5 days of another 100 drivers' trajectories will be used to evaluate your submission. And test trajectories are not in the data/ folder. You can construct your own validation set based on the trajectories and their corresponding labels. 
+
 ##### Feature Description of validation data
 * **Longitude**: The longitude of the taxi.
 * **Latitude**: The latitude of the taxi.
-* **Second_since_midnight**: How many seconds has past since midnight.
-* **Status**: 1 means taxi is occupied and 0 means a vacant taxi.
+* **Second_since_midnight**: Seconds have passed since midnight.
+* **Status**: 1 means the taxi is occupied and 0 means a vacant taxi.
 * **Time**: Timestamp of the record.
 
 #### Submission Guideline
-To help better and fast evaluate your model, please submit a separate python file named "evaluation.py". This file should contain two functions.
-* **Data Processing**
-  ```python
-  def processs_data(traj_1, traj_2):
-    """
-    Input:
-        Traj: a list of list, contains one trajectory for one driver 
-        example:[[114.10437, 22.573433, '2016-07-02 00:08:45', 1],
-           [114.179665, 22.558701, '2016-07-02 00:08:52', 1]]
-    Output:
-        Data: any format that can be consumed by your model.
-    
-    """
-    return data
-  ```
+Please compress all the below files into a zipped file and submit the zip file (firstName_lastName_P3.zip) to Canvas. 
+
 * **Model Prediction**
     ```python
     def run(data, model):
@@ -140,25 +128,21 @@ To help better and fast evaluate your model, please submit a separate python fil
 
 ## Tips of Using GPU on Turing Server
 
-* Set up environment on Turing server 
-    1. Connect to Turing server
-    2. Open remote folder (your own root folder on the server) 
-    3. Create a new terminal
-    4. Load anaconda3, CUDA and cudnn using “module load” command
-    5. Create new conda env using “conda create –n NAME”
-    6. Activate new env using “source activate NAME”
-    7. Install Pytorch using the command from this page: https://pytorch.org/get-started/locally/, based on your OS.
+* Following the previous instruction, go to the folder where you train the model and activate the enviornment.
 
 * Submit job on Turing server
    ```shell
    #!/bin/bash
+   #SBATCH -A ds504
+   #SBATCH -p academic
    #SBATCH -N 1
-   #SBATCH -n 4
+   #SBATCH -c 8
    #SBATCH --gres=gpu:1
-
-   module load cuda92/toolkit
-   module load cudnn
-   python torch_test.py
+   #SBATCH -t 12:00:00
+   #SBATCH --mem 12G
+   #SBATCH --job-name="p3"
+    
+   python main.py train
    ```
 
 
