@@ -7,7 +7,21 @@
 * 100 (One Hundred)
 
 ## Goal
-In project 2, you were given a bunch of drivers and their trajectories to build a model to classify which driver a given trajectory belongs to. In this project, we will give you a harder task. In project 2, the training data contain 5 drivers and 6-month trajectories for each driver. In this task, however, the trainning data contain 500 drivers and only 5-day trajectories for each driver. In this task, you should use meta-learning and/or few shot learning to build the classification model. The model for each driver can be a binary classification, which takes two trajectories as input and predict whether these two trajectories belongs to the same driver. 
+In Project 2, you were given a bunch of drivers and their trajectories to build a model to classify which driver a given 100-step length sub-trajectory belongs to. In this project, we will give you a harder task. In Project 2, the training data contains 5 drivers and 6-month trajectories for each driver. In this task, however, the training data contain 400 drivers and only 5-day trajectories for each driver. You should use few-shot learning to build the classification model for this task. The model for each driver can be a binary classification, which takes two trajectories as input and predicts whether these two trajectories belong to the same driver. 
+
+## How to run :
+extract features from the pickle file and generate the sub-trajectories of the 400 drivers:
+* `$ python extract_feature.py`
+
+Generate the pairs of the sub-trajectories, if the sub-trajectories are from the same driver label 1, and if the  sub-trajectories are from the different driver labels 0. After running this file, the expected shape of the training dataset should be (Number of trajectory pairs, 2, 100, feature_size).
+
+* `$ generate_paired_traj.py`
+  
+training model:
+* `$ python main.py train`
+
+testing model:
+* `$ python main.py test`
 
 ## Current Leaderboard
 | rank | Name | Accuracy |
@@ -18,9 +32,12 @@ In project 2, you were given a bunch of drivers and their trajectories to build 
 
 
 ## Evaluation
-To evaluation your submission, a seperate test dataset will be held. For each driver, the test data will contains 10 different trajectories. We will randomly generate 20,000 trajectory pairs and use them to evaluate your submitted model. Like project 2, you should submit a evaluation.py file containing how to process the model and how to run prediction. 
+To evaluate your submission, a separate test dataset will be held. For each driver, the test data will be another 100 different drivers, and we will use the same data preprocessing as you did for the training dataset. We will randomly generate `0,000 trajectory pairs and use them to evaluate your submitted model. 
 
 ## Deliverables & Grading
+
+Please compress all the below files into a zipped file and submit the zip file (firstName_lastName_P3.zip) to Canvas. 
+
 * PDF Report (50%) [template](https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx)
     * proposal
     * methodology
@@ -29,8 +46,8 @@ To evaluation your submission, a seperate test dataset will be held. For each dr
     
 * Python Code (50%)
     * Code is required to avoid plagiarism.
-    * The submission should contain a python file named "evaluation.py" to help evaluate your model. 
-    * The evluation.py should follow the format in the Submission Guideline section. 
+    * The submission should contain all the Python files including "extract_feature, generate_paired_traj.py, model.py, train.py, test.py, and main.py" to help evaluate your model. 
+
     * Evaluation criteria.
       | Percentage | Accuracy |
       |---|---|
@@ -64,7 +81,7 @@ To evaluation your submission, a seperate test dataset will be held. For each dr
     4. Conclusion (5)
    * Bonus (5):
    
-     5 bonus points for the top 3 on the leader board.
+     5 bonus points for the top 3 on the leaderboard.
 
 ## Project Guidelines
 
