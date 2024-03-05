@@ -32,7 +32,7 @@ testing model:
 
 
 ## Evaluation
-To evaluate your submission, a separate test dataset will be used. The test data will be another 100 different drivers, and we will use the same data preprocessing as you did for the training dataset. We will randomly generate 10,000 trajectory pairs and use them to evaluate your submitted model. This means the testing dataset's shape is (10000, 2, 100, feature_size).
+To evaluate your submission, a separate test dataset will be used. The test data will be another 100 different drivers, and we will use the same data preprocessing as you did for the training dataset. We will randomly generate 10,000 100-step length sub-trajectory pairs and use them to evaluate your submitted model. This means the testing dataset's shape is (10000, 2, 100, feature_size).
 
 ## Deliverables & Grading
 
