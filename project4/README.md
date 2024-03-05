@@ -49,7 +49,7 @@ Please compress all the below files into a zipped file and submit the zip file (
 * Python Code (50%)
     * Code is required to avoid plagiarism.
     * The submission should contain all the Python files including "extract_feature.py, generate_paired_traj.py, model.py, train.py, test.py, and main.py" to help evaluate your model.
-    * Similar to Project2, you can revise "extract_feature.py" to get more features of the dataset or for the feature engineering. But for a fair comparison of the performance of the code, the input shape of the training dataset should be the same, which is (number of trajectory pairs, 2, 100, feature size).
+    * Similar to Project2, you can revise "extract_feature.py" to get more features of the dataset or for feature engineering. But for a fair evaluation of the performance of the code, the input sub-trajectory length has to be 100.
     * Evaluation criteria.
       | Percentage | Accuracy |
       |---|---|
