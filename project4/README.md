@@ -129,7 +129,7 @@ Please compress all the below files into a zipped file and submit the zip file (
 
 ## Tips of Using GPU on Turing Server
 
-* Following the previous instruction, go to the folder where you train the model and activate the environment.
+* Following the previous [instruction](https://github.com/UrbanIntelligence/CS586-DS504-Spring2024/blob/master/project2/Turing_Setup_Instructions.pdf), go to the folder where you train the model and activate the environment.
 
 * Submit job on Turing server
    ```shell
@@ -148,7 +148,7 @@ Please compress all the below files into a zipped file and submit the zip file (
 
 
 ## Some Tips
-Setup information could also be found in the [slides](https://docs.google.com/presentation/d/148pBkhw4HqGjkQGkOdsXjJw_B3rzVgi6Brq6fc7r8mE/edit?usp=sharing)
+Setup information could also be found in the [PDF](https://github.com/UrbanIntelligence/CS586-DS504-Spring2024/blob/master/project2/Turing_Setup_Instructions.pdf)
 * Anaconda and virtual environment set tup
    * [Download and install anaconda](https://www.anaconda.com/distribution/)
    * [Create a virtual environment with commands](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands)
