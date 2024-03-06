@@ -88,7 +88,7 @@ Please compress all the below files into a zipped file and submit the zip file (
 ## Project Guidelines
 
 #### Dataset Description
-The data is stored in a dictionary, in which the key is the ID of a driver and the value is a list of his/her trajectories. For each trajectory, the basic element is similar to project 2. Each element in the trajectory is in the following format, [ plate, longitude, latitude, second_since_midnight, status, time ]. Data can be found at [Google Drive](https://drive.google.com/file/d/12I9JCSioVf7Z_whh4fkG252i_1xmqjAT/view?usp=sharing). The training data contain **400** drivers and **5**-day trajectories for each driver. We also provide a validation dataset, which contains 20 different drivers, and each of them also has 5-day trajectories. To successfully validate your model, you need to follow the same data pre-processing and generate the number of pairs of 100-step length sub-trajectories.
+The data is stored in a dictionary, in which the key is the ID of a driver and the value is a list of his/her trajectories. For each trajectory, the basic element is similar to project 2. Each element in the trajectory is in the following format, [ plate, longitude, latitude, second_since_midnight, status, time ]. Data can be found at [Google Drive](https://drive.google.com/file/d/12I9JCSioVf7Z_whh4fkG252i_1xmqjAT/view?usp=sharing). The training data contain **400** drivers and **5**-day trajectories for each driver. We also provide a [validation dataset](https://github.com/UrbanIntelligence/CS586-DS504-Spring2024/blob/master/project2/validation_data.pkl), which contains 20 different drivers, and each of them also has 5-day trajectories. To successfully validate your model, you need to follow the same data pre-processing and generate the number of pairs of 100-step length sub-trajectories.
 #### Feature Description 
 * **Plate**: Plate means the taxi's plate. In this project, we change them to 0~500 to keep anonymity. The same plate means the same driver, so this is the target label for the classification. 
 * **Longitude**: The longitude of the taxi.
@@ -98,7 +98,7 @@ The data is stored in a dictionary, in which the key is the ID of a driver and t
 * **Time**: Timestamp of the record.
 
 #### Problem Definition
-Given two full-day trajectories,  you need to predict whether those two given trajectories belong to the same driver. 
+Given two 100-step length sub-trajectory trajectories,  you need to predict whether those two given trajectories belong to the same driver. 
 
 #### Evaluation 
 5 days of another 100 drivers' trajectories will be used to evaluate your submission. And test trajectories are not in the data/ folder. You can construct your own validation set based on the trajectories and their corresponding labels. 
@@ -130,7 +130,7 @@ Please compress all the below files into a zipped file and submit the zip file (
 
 ## Tips of Using GPU on Turing Server
 
-* Following the previous instruction, go to the folder where you train the model and activate the enviornment.
+* Following the previous instruction, go to the folder where you train the model and activate the environment.
 
 * Submit job on Turing server
    ```shell
