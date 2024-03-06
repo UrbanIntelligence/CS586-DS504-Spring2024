@@ -63,11 +63,10 @@ Please compress all the below files into a zipped file and submit the zip file (
     * Code (50) + Report (50)
 
   * Code (50):
-    * accuracy >= 0.60: 50
-    * accuracy >= 0.55: 45
-    * accuracy >= 0.50: 40
-    * accuracy >= 0.45: 35
-    * accuracy >= 0.40: 30
+    * accuracy >= 0.65: 50
+    * accuracy >= 0.60: 45
+    * accuracy >= 0.55: 40
+    * accuracy >= 0.50: 35
 
   * Report (50):
     1. Introduction & Proposal (5)
@@ -101,7 +100,7 @@ The data is stored in a dictionary, in which the key is the ID of a driver and t
 Given two 100-step length sub-trajectory trajectories,  you need to predict whether those two given trajectories belong to the same driver. 
 
 #### Evaluation 
-5 days of another 100 drivers' trajectories will be used to evaluate your submission. And test trajectories are not in the data/ folder. You can construct your own validation set based on the trajectories and their corresponding labels. 
+5 days of another 100 drivers' trajectories will be used to evaluate your submission. And test trajectories are not in the data/ folder. You can evaluate the validation set based on the trajectories we provided. 
 
 ##### Feature Description of validation data
 * **Longitude**: The longitude of the taxi.
