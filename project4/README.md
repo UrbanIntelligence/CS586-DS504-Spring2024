@@ -154,7 +154,6 @@ Setup information could also be found in the [PDF](https://github.com/UrbanIntel
    * [Create a virtual environment with commands](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands)
 * Deep learning package
    * [Pytorch](https://pytorch.org/tutorials/)
-   * [MxNet](https://mxnet.apache.org/)
 * Open source GPU
    * [Turing](https://arc.wpi.edu/cluster-documentation/build/html/index.html)
    * [Using GPU on Google Cloud](https://github.com/yanhuata/DS504CS586-S20/blob/master/project2/keras_tutorial.ipynb)
