@@ -53,11 +53,11 @@ Please compress all the below files into a zipped file and submit the zip file (
     * Evaluation criteria.
       | Percentage | Accuracy |
       |---|---|
-      | 100 | 0.6 |
-      | 90 | 0.55 |
-      | 80 | 0.5 |
-      | 70 | 0.45|
-      | 60 | 0.4 |
+      | 100 | 0.65 |
+      | 90 | 0.60 |
+      | 80 | 0.55 |
+      | 70 | 0.50|
+
 * Grading:
   * Total (100):
     * Code (50) + Report (50)
