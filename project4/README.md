@@ -156,9 +156,6 @@ Setup information could also be found in the [PDF](https://github.com/UrbanIntel
    * [Pytorch](https://pytorch.org/tutorials/)
 * Open source GPU
    * [Turing](https://arc.wpi.edu/cluster-documentation/build/html/index.html)
-   * [Using GPU on Google Cloud](https://github.com/yanhuata/DS504CS586-S20/blob/master/project2/keras_tutorial.ipynb)
-   * [Cuda set up for Linux](https://docs.google.com/document/d/1rioVwqvZCbn58a_5wqs5aT3YbRsiPXs9KmIuYhmM1gY/edit?usp=sharing)
-   * [Google colab](https://colab.research.google.com/notebooks/gpu.ipynb)
    * [Kaggle](https://www.kaggle.com/dansbecker/running-kaggle-kernels-with-a-gpu)
 * **Keywords**. 
    * If you are wondering where to start, you can try to search "sequence classification", "sequence to sequence" or "sequence embedding" in Google or Github, this might provide you some insights.
