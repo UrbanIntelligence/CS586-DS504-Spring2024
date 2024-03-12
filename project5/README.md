@@ -5,7 +5,7 @@
 
 #### Important Dates
 * Team Project Starts
-  * Tuesday Feb 27, 2024 
+  * Tuesday Feb 27, 2024
 * Project Proposal Due
   * Tuesday Mar 12, 2024 (23:59)
   * *About 2 pages*
@@ -33,7 +33,7 @@
   * [Kaggle](https://www.kaggle.com/): An online machine learning competition website.
 * You may consider some ideas like,
   * A traffic pattern learner that would apply data mining techniques to both traffic archives (taxi dataset) and online traffic patterns (California traffic) to learn about typical routes of taxis, congestions in the form of clusters, open parking spaces, outliers in traffic, or to recommend routes.
-  * A social media barometer tool that performs analytics on twitter data, aggregated by location and time, to determine periods or places with heavy flu patterns. Heterogenous data from mobile phones or other sensors that also provides information about the number of people in a given space could be utilized to further enhance the quality of the predicted results.
+  * A social media barometer tool that performs analytics on twitter data, aggregated by location and time, to determine periods or places with heavy flu patterns. Heterogeneous data from mobile phones or other sensors that also provides information about the number of people in a given space could be utilized to further enhance the quality of the predicted results.
   * A movie recommender, that based on the UCI movie data set maybe together with a second data set from what is playing right now in the theatres would perform analytics to learn about what features tend to lead to block busters, e.g., certain combinations of actors, certain topics, for certain age groups, etc.
   * An application that analyzes the DBES soccer sensor data set 2013 to learn about different features prevalent in such a real-life game, e.g., what situation lead to a goal, who had the most chances for a goal, what team dominated in the play, etc.
 * Instead, do put your own much cooler project idea here that really rocks ...

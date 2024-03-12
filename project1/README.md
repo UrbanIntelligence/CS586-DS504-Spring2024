@@ -7,17 +7,17 @@
 * 100 (One Hundred)
 
 ## Goal
-In this project, you will use Github APIs to download data and analyze the collected data. 
+In this project, you will use Github APIs to download data and analyze the collected data.
 
-* Question to answer: Sample GitHub account IDs and estimate the total number of valid users in Github. In GitHub, user's ID is increasing from 1, but the ID will not be avaiable in GitHub API if the user deletes his/her account. In particular, 5% of the users' ID from 1 to 1000 were missing. Since the limits of GitHub API, you cannot download all the IDs and count the number of missing IDs, you need to sample some IDs and estimate the number of valid users with an unbiased estimator. This project will be completed in Python 3. 
+* Question to answer: Sample GitHub account IDs and estimate the total number of valid users in Github. In GitHub, user's ID is increasing from 1, but the ID will not be available in GitHub API if the user deletes his/her account. In particular, 5% of the users' ID from 1 to 1000 were missing. Since the limits of GitHub API, you cannot download all the IDs and count the number of missing IDs, you need to sample some IDs and estimate the number of valid users with an unbiased estimator. This project will be completed in Python 3.
 
 ## Deliverables & Grading
 * PDF Report (70%) [template](https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx)
 	* proposal
 	* methodology
 	* empirical results and evaluation
-	* conslusion
-	
+	* conclusion
+
 * Python Code (30%)
 
 * Grading
@@ -27,11 +27,11 @@ In this project, you will use Github APIs to download data and analyze the colle
   2. Report(70):
      1. Introduction & Proposal (10)
      2. Methodology (20):
-     	a. Sampling/estimation method (10) 
-	b. Proof of unbiasedness(5): The unbiasedness can be "proven" by the evaluation results, with figure similar to the one below (where the figure below was from the YouTube counting paper from lecture 2, Big data acquisition and measurement). The figure you want to show has the x-axis as different sampling budgets, and y-axis as the estimated total counts of active users in different runs. If you figure shows that there are half chances to over- vs under-estimate the total count, i.e., half chance to be above vs below the estimation average, it is a proof of unbiasedness. 
- 	c. Correctness of proof (5): This correctness can be "proven" too by the figure above, if the figure shows that the averge estimates stay rounghly the same over different sampling budgets (values on the x-axis).  
+     	a. Sampling/estimation method (10)
+	b. Proof of unbiasedness(5): The unbiasedness can be "proven" by the evaluation results, with figure similar to the one below (where the figure below was from the YouTube counting paper from lecture 2, Big data acquisition and measurement). The figure you want to show has the x-axis as different sampling budgets, and y-axis as the estimated total counts of active users in different runs. If you figure shows that there are half chances to over- vs under-estimate the total count, i.e., half chance to be above vs below the estimation average, it is a proof of unbiasedness.
+ 	c. Correctness of proof (5): This correctness can be "proven" too by the figure above, if the figure shows that the average estimates stay roughly the same over different sampling budgets (values on the x-axis).
      4. Evaluation & Results (30):
-     	a. Results from a validation set (15): Valudation set is a set of active users you collected exhaustively in a manageable github ID range. For example, you can choose a small ID range to be 1 to 10,000, and exhaustively collect all active user IDs in it. Then within this validation set, you have the "ground truth" total number of active users. You can apply your sampling and estimation approach to this validation set, and see how acurate your estimater is comparing to the ground-truth.
+     	a. Results from a validation set (15): Validation set is a set of active users you collected exhaustively in a manageable github ID range. For example, you can choose a small ID range to be 1 to 10,000, and exhaustively collect all active user IDs in it. Then within this validation set, you have the "ground truth" total number of active users. You can apply your sampling and estimation approach to this validation set, and see how accurate your estimator is comparing to the ground-truth.
 	b. Results from the entire id space (15)
      5. Conclusion (10)
 
@@ -97,13 +97,13 @@ print(json_formatted_str)
      'received_events_url': 'https://api.github.com/users/mojombo/received_events',
      'type': 'User',
      'site_admin': False}
-     
-#sample NUM ids since UID    
+
+#sample NUM ids since UID
 def sample(uid,num):
     ...
     return sample_data
-    
-#use downloaded data to build estimator  
+
+#use downloaded data to build estimator
 def estimate(sample_data):
     ...
     return estimation
