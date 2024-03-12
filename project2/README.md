@@ -33,6 +33,8 @@ testing model:
 
 
 ## Deliverables & Grading
+Please compress all the below files into a zipped file and submit the zip file (firstName_lastName_P3.zip) to Canvas.
+
 * PDF Report (50%) [template](https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx)
     * proposal
     * methodology
