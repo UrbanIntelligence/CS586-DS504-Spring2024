@@ -179,7 +179,7 @@ You can get full credits if all the generated images can be recognized, otherwis
 
 ## Bonus (10 points)
 
-Generate images from other data sources.
+Generate images from other data sources or train a variation of basic GAN model e.g., cGAN, CycleGAN, as we introduced in the lecture).
 
 * Data set
 
