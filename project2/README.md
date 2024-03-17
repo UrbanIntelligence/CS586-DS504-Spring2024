@@ -28,13 +28,14 @@ testing model:
 | rank | Name | Accuracy |
 |---|---|---|
 |**1**   | Allen Cheung | 84.74% |
-|**2**   | Chandra Rachabathuni | 83.10% |
-|**3**   | Nitya Phani Santosh | 81.97% |
-|**4**   | Qiaochu Liu  | 81.79% |
-|**4**   | Sanjeeth Nagappa Chakrasali | 81.79% |
-|**6**   | Niveditha Narasimha Murthy | 80.97% |
-|**7**   | Talia Andrews | 80.74% |
-|**8**   | Michael Alicea | 78.34% |
+|**2**   | Vinayak Revankar | 84.17% |
+|**3**   | Chandra Rachabathuni | 83.10% |
+|**4**   | Nitya Phani Santosh | 81.97% |
+|**5**   | Qiaochu Liu  | 81.79% |
+|**5**   | Sanjeeth Nagappa Chakrasali | 81.79% |
+|**7**   | Niveditha Narasimha Murthy | 80.97% |
+|**8**   | Talia Andrews | 80.74% |
+|**9**   | Michael Alicea | 78.34% |
 
 
 ## Deliverables & Grading
