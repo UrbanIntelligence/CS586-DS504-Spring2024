@@ -27,9 +27,9 @@ testing model:
 ## Current Leaderboard
 | rank | Name | Accuracy |
 |---|---|---|
-|**1**   | ... | 90% |
-|**2**   | ... | 86% |
-|**3**   | ... | 80% |
+|**1**   | Michael Alicea | 78.34% |
+|**2**   | ... | ... |
+|**3**   | ... | ... |
 
 
 ## Deliverables & Grading
