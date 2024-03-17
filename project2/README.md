@@ -27,17 +27,17 @@ testing model:
 ## Current Leaderboard
 | rank | Name | Accuracy |
 |---|---|---|
-|**1**   | Allen Cheung | 84.74% |
-|**2**   | Vinayak Revankar | 84.17% |
-|**3**   | Chandra Rachabathuni | 83.10% |
-|**4**   | Nitya Phani Santosh | 81.97% |
-|**5**   | Qiaochu Liu  | 81.79% |
-|**5**   | Sanjeeth Nagappa Chakrasali | 81.79% |
-|**7**   | Niveditha Narasimha Murthy | 80.97% |
-|**8**   | Arsalan Saif | 80.89% |
-|**9**   | Talia Andrews | 80.74% |
-|**10**   | Michael Alicea | 78.34% |
 
+|**1**   | Xurong Sun | 84.91% |
+|**2**   | Allen Cheung | 84.74% |
+|**3**   | Vinayak Revankar | 84.17% |
+|**4**   | Chandra Rachabathuni | 83.10% |
+|**5**   | Nitya Phani Santosh | 81.97% |
+|**6**   | Qiaochu Liu  | 81.79% |
+|**6**   | Sanjeeth Nagappa Chakrasali | 81.79% |
+|**8**   | Niveditha Narasimha Murthy | 80.97% |
+|**9**   | Arsalan Saif | 80.89% |
+|**10**   | Talia Andrews | 80.74% |
 
 ## Deliverables & Grading
 Please compress all the below files into a zipped file and submit the zip file (firstName_lastName_P2.zip) to Canvas.
