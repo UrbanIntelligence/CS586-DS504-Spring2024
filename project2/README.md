@@ -27,8 +27,8 @@ testing model:
 ## Current Leaderboard
 | rank | Name | Accuracy |
 |---|---|---|
-|**1**   | Michael Alicea | 78.34% |
-|**2**   | ... | ... |
+|**1**   | Talia Andrews | 80.74% |
+|**2**   | Michael Alicea | 78.34% |
 |**3**   | ... | ... |
 
 
