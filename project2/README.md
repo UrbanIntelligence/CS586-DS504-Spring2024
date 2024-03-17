@@ -28,8 +28,9 @@ testing model:
 | rank | Name | Accuracy |
 |---|---|---|
 |**1**   | Allen Cheung | 84.74% |
-|**2**   | Talia Andrews | 80.74% |
-|**3**   | Michael Alicea | 78.34% |
+|**2**   | Qiaochu Liu  | 81.79% |
+|**3**   | Talia Andrews | 80.74% |
+|**4**   | Michael Alicea | 78.34% |
 
 
 ## Deliverables & Grading
