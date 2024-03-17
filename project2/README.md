@@ -34,8 +34,9 @@ testing model:
 |**5**   | Qiaochu Liu  | 81.79% |
 |**5**   | Sanjeeth Nagappa Chakrasali | 81.79% |
 |**7**   | Niveditha Narasimha Murthy | 80.97% |
-|**8**   | Talia Andrews | 80.74% |
-|**9**   | Michael Alicea | 78.34% |
+|**8**   | Arsalan Saif | 80.89% |
+|**9**   | Talia Andrews | 80.74% |
+|**10**   | Michael Alicea | 78.34% |
 
 
 ## Deliverables & Grading
