@@ -30,8 +30,9 @@ testing model:
 |**1**   | Allen Cheung | 84.74% |
 |**2**   | Qiaochu Liu  | 81.79% |
 |**2**   | Sanjeeth Nagappa Chakrasali | 81.79% |
-|**4**   | Talia Andrews | 80.74% |
-|**5**   | Michael Alicea | 78.34% |
+|**4**   | Niveditha Narasimha Murthy | 80.97% |
+|**5**   | Talia Andrews | 80.74% |
+|**6**   | Michael Alicea | 78.34% |
 
 
 ## Deliverables & Grading
