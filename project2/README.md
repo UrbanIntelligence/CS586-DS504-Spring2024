@@ -27,9 +27,9 @@ testing model:
 ## Current Leaderboard
 | rank | Name | Accuracy |
 |---|---|---|
-|**1**   | Talia Andrews | 80.74% |
-|**2**   | Michael Alicea | 78.34% |
-|**3**   | ... | ... |
+|**1**   | Allen Cheung | 84.74% |
+|**2**   | Talia Andrews | 80.74% |
+|**3**   | Michael Alicea | 78.34% |
 
 
 ## Deliverables & Grading
