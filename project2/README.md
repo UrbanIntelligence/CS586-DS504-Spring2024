@@ -28,16 +28,17 @@ testing model:
 | rank | Name | Accuracy |
 |---|---|---|
 
-|**1**   | Xurong Sun | 84.91% |
-|**2**   | Allen Cheung | 84.74% |
-|**3**   | Vinayak Revankar | 84.17% |
-|**4**   | Chandra Rachabathuni | 83.10% |
-|**5**   | Nitya Phani Santosh | 81.97% |
-|**6**   | Qiaochu Liu  | 81.79% |
-|**6**   | Sanjeeth Nagappa Chakrasali | 81.79% |
-|**8**   | Niveditha Narasimha Murthy | 80.97% |
-|**9**   | Arsalan Saif | 80.89% |
-|**10**   | Talia Andrews | 80.74% |
+
+|**1**   | Yuxin Sun | 92.78% |
+|**2**   | Xurong Sun | 84.91% |
+|**3**   | Allen Cheung | 84.74% |
+|**4**   | Vinayak Revankar | 84.17% |
+|**5**   | Chandra Rachabathuni | 83.10% |
+|**6**   | Nitya Phani Santosh | 81.97% |
+|**7**   | Qiaochu Liu  | 81.79% |
+|**7**   | Sanjeeth Nagappa Chakrasali | 81.79% |
+|**9**   | Niveditha Narasimha Murthy | 80.97% |
+|**10**   | Arsalan Saif | 80.89% |
 
 ## Deliverables & Grading
 Please compress all the below files into a zipped file and submit the zip file (firstName_lastName_P2.zip) to Canvas.
