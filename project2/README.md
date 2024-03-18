@@ -34,11 +34,11 @@ testing model:
 |**3**   | Allen Cheung | 84.74% |
 |**4**   | Vinayak Revankar | 84.17% |
 |**5**   | Chandra Rachabathuni | 83.10% |
-|**6**   | Nitya Phani Santosh | 81.97% |
-|**7**   | Qiaochu Liu  | 81.79% |
-|**7**   | Sanjeeth Nagappa Chakrasali | 81.79% |
-|**9**   | Niveditha Narasimha Murthy | 80.97% |
-|**10**   | Arsalan Saif | 80.89% |
+|**6**   | Shubham Dashrath Wagh | 82.79% |
+|**7**   | Nitya Phani Santosh | 81.97% |
+|**8**   | Qiaochu Liu  | 81.79% |
+|**8**   | Sanjeeth Nagappa Chakrasali | 81.79% |
+|**10**   | Niveditha Narasimha Murthy | 80.97% |
 
 ## Deliverables & Grading
 Please compress all the below files into a zipped file and submit the zip file (firstName_lastName_P2.zip) to Canvas.
