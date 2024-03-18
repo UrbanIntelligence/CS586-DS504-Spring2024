@@ -28,7 +28,6 @@ testing model:
 | rank | Name | Accuracy |
 |---|---|---|
 
-
 |**1**   | Yuxin Sun | 92.78% |
 |**2**   | Xurong Sun | 84.91% |
 |**3**   | Allen Cheung | 84.74% |
