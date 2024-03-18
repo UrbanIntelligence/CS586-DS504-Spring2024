@@ -36,7 +36,7 @@ testing model:
 |**7**   | Nitya Phani Santosh | 81.97% |
 |**8**   | Qiaochu Liu  | 81.79% |
 |**8**   | Sanjeeth Nagappa Chakrasali | 81.79% |
-|**10**  | Niveditha Narasimha Murthy | 80.97% |
+|**10**  |Yihan Wang | 81.13% |
 
 ## Deliverables & Grading
 Please compress all the below files into a zipped file and submit the zip file (firstName_lastName_P2.zip) to Canvas.
