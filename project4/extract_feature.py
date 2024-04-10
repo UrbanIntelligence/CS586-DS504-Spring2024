@@ -10,7 +10,7 @@ import numpy as np
 from tqdm import tqdm
 
 def read_raw_pickle() -> dict:
-    pickle_path = os.path.dirname(os.path.realpath(__file__)) + '/train_data.pkl'
+    pickle_path = os.path.dirname(os.path.realpath(__file__)) + '/validation_data.pkl'
     dict_of_df = pd.read_pickle(pickle_path)
     return dict_of_df
 
