@@ -28,9 +28,11 @@ testing model:
 ## Current Leaderboard
 | rank | Name | Accuracy |
 |---|---|---|
-|**1**   | ... | 96% |
-|**2**   | ... | 95% |
-|**3**   | ... | 93% |
+|**1**   | Jingfeng Xia | 88.61% |
+|**2**   | Yuxin Sun | 88.31% |
+|**3**   | Ningcong Chen | 86.79% |
+|**4**   | Sonu Tejwani | 82.87%|
+|**5**   | Allen Cheung | 82.63% |
 
 
 ## Evaluation
