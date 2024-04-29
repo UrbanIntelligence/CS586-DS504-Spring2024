@@ -29,6 +29,7 @@ testing model:
 | rank | Name | Accuracy |
 |---|---|---|
 |**1**   | Jingfeng Xia | 88.61% |
+|**2**   | Chandra Harsha | 88.40% |
 |**2**   | Yuxin Sun | 88.31% |
 |**3**   | Ningcong Chen | 86.79% |
 |**4**   | Sonu Tejwani | 82.87%|
